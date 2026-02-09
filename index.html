@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Responsivo com media query</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="estilo/mediaquery.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- imagem no css -->
+            </div>
+            <div id="formulario">
+                <h1>Inscreva-se ao DevJocas</h1>
+                <p>Seja bem-vindo(a) ao Curso de Programação</p>
+                <form action="#" method="post">
+                    <div class="campo-formulario">
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome"  maxlength="30" placeholder="Digite o teu nome" required>
+                         <i class="material-icons">person</i>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail"  maxlength="20" placeholder="Digite o teu email" required>
+                        <i class="material-icons">email</i>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha"  maxlength="20" placeholder="Digite a tua senha" required>
+                         <i class="material-icons">lock</i>
+                    </div>
+                    <!-- botao sem div e com div -->
+                    <!-- <div class="centralizar-botoes"> -->
+
+                        <input type="submit" value="Enviar">
+                        <a href="entrar.html" class="botao">Esqueci a senha <i class="material-icons">email</i></a>
+                    
+                    <!-- </div> -->
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
